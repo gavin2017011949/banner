@@ -75,7 +75,6 @@ define(["jquery"], function ($) {
             changeNav(cfg.idx);
           }                
         }); 
-
         // 下标
         for (var n = 0; n < $navs.children("li").length; n++) {
           $("#navs li").click(function () {
