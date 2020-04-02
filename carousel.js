@@ -15,7 +15,6 @@ define(["jquery"], function ($) {
             ],
         };
         $.extend(cfg, conf);
-
         // 初始化
         var $box = $(conf.container),
             $slider = $('<div class="slider" id="slider"></div>'),
