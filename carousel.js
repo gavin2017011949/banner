@@ -119,7 +119,6 @@ define(["jquery"], function ($) {
           $right.css("opacity", "0");
           cfg.timer=setInterval(automatic,cfg.time+cfg.disapper);
       });
-
       return {
         show: show
       };

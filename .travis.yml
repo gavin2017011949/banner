@@ -3,7 +3,6 @@ node_js:
   - "node"
 
 after_script:
-  - grunt release
   - cd ./dist
   - mkdir img
   - cp ../img/* img/.
